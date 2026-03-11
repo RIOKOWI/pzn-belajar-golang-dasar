@@ -11,3 +11,7 @@ go mod init nama-module
 - Untuk membuat function, kita bisa menggunan kata kunci func
 - Main function harus terdapat di dalam main package
 - Titik koma di Golang, tidaklah wajib, artinya kita bisa menambahkan titik koma atau tidak, diakhir kode program kita
+
+
+# Println
+- Untuk menulis tulisan, kita perlu melakukan import module fmt terlebih dahulu
