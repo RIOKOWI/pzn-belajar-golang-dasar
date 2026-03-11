@@ -15,3 +15,18 @@ go mod init nama-module
 
 # Println
 - Untuk menulis tulisan, kita perlu melakukan import module fmt terlebih dahulu
+
+# Perintah Compile project
+```bash
+go build
+```
+
+# Run project
+```bash
+.\pzn-belajar-golang-dasar.exe
+```
+
+# Menjalankan tanpa kompilasi
+```bash
+go run hello-world.go
+```
