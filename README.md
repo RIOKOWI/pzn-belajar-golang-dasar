@@ -94,6 +94,15 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
  - uint = mininaml uint32
 
 ### contoh di file:
-- [sample.go](sample.go)
+- [number.go](number.go)
+
+---
+
+# Tipe Data Boolean
+- tipe data boolean adalah tipe data yang memiliki dua nilai, yaitu benar atau salah
+- Di Go-Lang, tipe data boolean direpresentasikan menggunakan kata kunci bool
+
+### contoh di file:
+- [boolean.go](boolean.go)
 
 ---
