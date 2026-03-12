@@ -119,3 +119,18 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 
 ### contoh di file:
 - [string.go](string.go)
+
+---
+
+# Variable
+- Variable adalah tempat untuk menyimpan data
+- Variable digunakan agar kita bisa mengakses data yang sama dimanapun kita mau
+- Di Go-Lang Variable hanya bisa menyimpan tipe data yang sama, jika kita ingin menyimpan data yang berbeda-beda jenis, kita harus membuat beberapa variable
+- Untuk membuat variable, kita bisa menggunakan kata kunci var, lalu diikuti dengan nama variable dan tipe datanya
+
+
+
+### contoh di file:
+- [variable.go](variable.go)
+
+---
