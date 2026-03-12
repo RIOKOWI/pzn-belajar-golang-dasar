@@ -60,3 +60,15 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
         .\hello-world.go:5:6: other declaration of main
 ```
 
+# Solusinya?
+- Karena Sekarang kita masih di dalam fase belajar, oleh karena itu kita tidak akan melakukan build project module terbelih dahulu
+- Sekarang kita akan fokus menjalankan file Golang satu persatu, sehingga tidak akan terjadi error jika dijalankan file nya satu persatu
+- Tapi INGAT, pada kenyataannya nanti, saat kita membuat project, kita hanya akan membuat satu main function saja
+
+### contoh di file:
+- [sample.go](sample.go)
+- [hello-world.go](hello-world.go)
+
+---
+
+
