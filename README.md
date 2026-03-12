@@ -92,3 +92,8 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
  - rune = int32
  - int = minimal int32
  - uint = mininaml uint32
+
+### contoh di file:
+- [sample.go](sample.go)
+
+---
