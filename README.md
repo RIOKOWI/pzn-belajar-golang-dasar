@@ -46,3 +46,17 @@ go run hello-world.go
 - Di Golang, function dalam module / project adalah unik, artinya kita tidak boleh membuat nama function yang sama
 - Oleh karena itu, jika kita membuat file baru, misal sample.go, lau membuat nama function yang sama yaitu main
 - Maka kita tidak bisa melakukan build module, karena main functin tersebut duplikat dengan yang ada di main function hello-world.go
+
+Jika di:
+```bash
+go build
+```
+
+muncul error:
+```bash
+PS C:\Users\owi\pzn-belajar-golang-dasar> go build
+# pzn-belajar-golang-dasar
+.\sample.go:5:6: main redeclared in this block
+        .\hello-world.go:5:6: other declaration of main
+```
+
