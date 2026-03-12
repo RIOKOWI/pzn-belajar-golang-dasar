@@ -6,7 +6,7 @@ go mod init nama-module
 ```
 
 ### contoh di file:
-go.mod
+- [go.mod](go.mod)
 
 ---
 
@@ -37,10 +37,12 @@ go run hello-world.go
 ```
 
 ### contoh di file:
-- hello-world.go
-- [pzn-belajar-golang-dasar.exe]
+- [hello-world.go](hello-world.go)
+- [pzn-belajar-golang-dasar.exe](pzn-belajar-golang-dasar.exe)
 
 ---
 
 # Multiple Main Function
-- 
+- Di Golang, function dalam module / project adalah unik, artinya kita tidak boleh membuat nama function yang sama
+- Oleh karena itu, jika kita membuat file baru, misal sample.go, lau membuat nama function yang sama yaitu main
+- Maka kita tidak bisa melakukan build module, karena main functin tersebut duplikat dengan yang ada di main function hello-world.go
