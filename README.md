@@ -107,11 +107,15 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 
 ---
 
-### Tipe Data String
+# Tipe Data String
 - String adalah tipe data kumpulan karakter
 - Jumlah karakter di dalam String bisa nol sampai tak terhingga
 - Tipe data String di Go-Lang direpresentasikan dengan kata kunci string
 - Nilai data String di Go-Lang selalu diawali dengan karakter " dan di akhiri dengan "
+
+# Function untuk String
+- len("string") = menghitung jumlah karakter di String
+- "string"[number] = mengambil karakter pada posisi yang di tentukan
 
 ### contoh di file:
 - [string.go](string.go)
