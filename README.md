@@ -169,3 +169,14 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - [convertion.go](convertion.go)
 
 ---
+
+
+# Type Declarations
+- Type Declarations adalah kemampuan membuat ulang tipe data baru dari tipe data yang sudah ada
+- Type Declarations biasanya digunakan untuk membuat alias terhadap tipe data yang sudah ada, dengan tujuan agar lebih mudah dimengerti
+
+
+### contoh di file:
+- [type_declarations.go](type_declarations.go)
+
+---
