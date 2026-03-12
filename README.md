@@ -180,3 +180,28 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - [type_declarations.go](type_declarations.go)
 
 ---
+
+# Operasi Matematika
+
+- (+) pertambahan
+- (-) pengurangan
+- (*) perkalian
+- (/) pembagian
+- (%) modulus atau sisa pembagian
+
+# Augmented Assignments
+- a = a + 10   |   a += 10
+- a = a - 10   |   a -= 10
+- a = a * 10   |   a *= 10
+- a = a / 10   |   a /= 10
+- a = a % 10   |   a %= 10
+
+# Unary Operator
+- (++) | a = a + 1
+- (--) | a = a - 1
+- (+) | Postive
+- (-) | Negative
+- (!) | kebalikan boolean
+
+### contoh di file:
+- [matematika.go](matematika.go)
