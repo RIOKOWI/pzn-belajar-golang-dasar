@@ -158,3 +158,14 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 
 ### contoh di file:
 - [constant.go](constant.go)
+
+---
+
+# Konversi Tipe Data
+- Di Go-Lang kadang kita butuh melakukan konversi tipe data dari satu tipe ke tipe lain
+- Misal kita ingin mengkonversi tipe data int32 ke int63, dan lain-lain
+
+### contoh di file:
+- [convertion.go](convertion.go)
+
+---

@@ -10,7 +10,7 @@ func main(){
 	// firstName = "lutpi"
 	// lastName = "fandi"
 
-	const (
+	const ( // multiple constant
 		first = "Rio"
 		last = "Kowi"
 	)
