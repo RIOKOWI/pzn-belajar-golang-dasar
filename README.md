@@ -5,6 +5,11 @@
 go mod init nama-module
 ```
 
+### contoh di file:
+go.mod
+
+---
+
 # Main Function
 - Go-Lang, itu mirip seperti bahasa pemrograman C/C++, dimana perlu ada yang namanya main function
 - Main function adalah sebuah fungsi yang akan dijalankan ketika program berjalan
@@ -30,3 +35,12 @@ go build
 ```bash
 go run hello-world.go
 ```
+
+### contoh di file:
+- hello-world.go
+- [pzn-belajar-golang-dasar.exe]
+
+---
+
+# Multiple Main Function
+- 
