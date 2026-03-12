@@ -1,3 +1,10 @@
+# Slide
+https://docs.google.com/presentation/d/1J0DbqyuLQVnGnkbL7bX3jL6iQc6RdXy8zQkfH8rbE0Q/edit
+
+# Source code
+https://github.com/ProgrammerZamanNow/belajar-golang-dasar-2023
+
+
 # Membuat Project
 - Project di Go-lang, biasanya disebut sebagai module
 - Untuk membuat module, kita bisa menggunakan perintah berikut di folder tempat kita akan membuat module :
@@ -71,4 +78,17 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 
 ---
 
+# Tipe Data Number
+- Ada 2 jenis tipe data Number yaitu:
+  - Integer (bilangan bulat)
+  - Floating Point (bilangan desimal)
 
+# Tipe Data Integer 
+  - int8,16,32,64 (jika butuh negatif)
+  - uint8,16,32,64 (jika tidak butuh negatif)
+
+# Alias
+ - byte = uint8
+ - rune = int32
+ - int = minimal int32
+ - uint = mininaml uint32
