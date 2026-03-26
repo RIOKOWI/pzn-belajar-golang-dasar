@@ -189,19 +189,31 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - (/) pembagian
 - (%) modulus atau sisa pembagian
 
-# Augmented Assignments
+## Augmented Assignments
 - a = a + 10   |   a += 10
 - a = a - 10   |   a -= 10
 - a = a * 10   |   a *= 10
 - a = a / 10   |   a /= 10
 - a = a % 10   |   a %= 10
 
-# Unary Operator
+## Unary Operator
 - (++) | a = a + 1
 - (--) | a = a - 1
 - (+) | Postive
 - (-) | Negative
 - (!) | kebalikan boolean
+
+### contoh di file:
+- [matematika.go](matematika.go)
+
+---
+
+# Operasi Perbandingan
+- Operasi perbandingan adalah operasi untuk membandingkan dua buah data
+- Operasi perbandingan adalah operasi yang menghasilkan nilai boolean (benar atau salah)
+- Jika hasil operasinya adalah benar, maka nilainya adalah true
+- Jika hasil operasinya adalah salah, maka nilainya adalah false
+
 
 ### contoh di file:
 - [matematika.go](matematika.go)
