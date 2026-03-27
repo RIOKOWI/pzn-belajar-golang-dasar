@@ -229,3 +229,16 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 
 ### contoh di file:
 - [operasi_boolean.go](operasi_boolean.go)
+
+---
+
+# Tipe Data Array
+
+- Array adalah tipe data yang berisikan kumpulan data dengan tipe yang sama
+- Saat membuat array, kita perlu menentukan jumlah data yang bisa ditampung oleh Array tersebut
+- Daya tampung Array tidak bisa bertambah setelah Array dibuat
+
+### contoh di file:
+- [array.go](array.go)
+
+--- 
