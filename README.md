@@ -247,3 +247,27 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - [array.go](array.go)
 
 --- 
+
+# Tipe Data Slice
+
+- Tipe data Slice adalah potongan dari data Array
+- Slice mirip dengan Array, yang membedakan adalah ukuran Slice bisa berubah
+- Slide dan Array selalu terkoneksi, dimana Slice adalah data yang mengakses sebagian atau seluruh data di Array
+
+## Detail Tipe Slice
+- Tipe Data Slice memiliki 3 data, yaitu pointer, length dan capacity
+- Pointer adalah penunjuk data pertama di array para slice
+- Length adalah panjang dari slice, dan
+- Capacity adalah kapasitas dari slice, dimana length tidak boleh lebih dari capacity
+
+
+## Membuat Slice dari Array
+- array[low:high] = Membuat slice dari array dimulai index low sampai index sebelum high
+- array[low:] = Membuat slide dari array dimulai index low sampai index akhir di array
+- array[:high] = Membuat slice dari array dimulai index 0 sampai index sebelum high
+- array[:] = Membuat slice dari array dimulai index 0 sampai index akhir di array
+
+### contoh di file:
+- []()
+
+--- 
