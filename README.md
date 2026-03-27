@@ -238,6 +238,11 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - Saat membuat array, kita perlu menentukan jumlah data yang bisa ditampung oleh Array tersebut
 - Daya tampung Array tidak bisa bertambah setelah Array dibuat
 
+## Function Array
+- len(array) : Untuk mendapatkan panjang Array
+- array[index] : Mendapat data di posisi index
+- array[index] = value : Mengubah data di posisi index
+
 ### contoh di file:
 - [array.go](array.go)
 

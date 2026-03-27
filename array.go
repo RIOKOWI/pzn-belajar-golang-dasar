@@ -23,4 +23,17 @@ func main(){
 
 	fmt.Println(values)
 
+
+	// function array
+	var aruy = [...]string{ // ... adalah jumlah tidak ditentukan
+		"io",
+		"rio",
+		"iyok",
+	}
+
+	aruy[2] = "bedul" // ubah isi array
+
+	fmt.Println(len(aruy))
+	fmt.Println(aruy)
+
 }
