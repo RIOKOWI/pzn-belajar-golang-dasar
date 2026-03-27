@@ -216,4 +216,16 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 
 
 ### contoh di file:
-- [matematika.go](matematika.go)
+- [perbandingan.go](perbandingan.go)
+
+---
+
+# Operasi Boolean
+
+- && = Dan
+- || = Atau
+- ! = Kebalikan
+
+
+### contoh di file:
+- [operasi_boolean.go](operasi_boolean.go)
