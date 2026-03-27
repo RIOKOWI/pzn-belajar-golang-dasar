@@ -75,7 +75,19 @@ func main(){
 
 	// make
 
+	newSlice := make([]string, 2, 5)
+	newSlice[0] = "Rio"
+	newSlice[1] = "Achyar"
 	
+
+	fmt.Println(newSlice)
+	fmt.Println(len(newSlice))
+	fmt.Println(cap(newSlice))
+	
+	newSlice1 := append(newSlice, "Ganteng")
+	fmt.Println(newSlice1)
+	fmt.Println(len(newSlice1))
+	fmt.Println(cap(newSlice1))
 	
 
 }
