@@ -267,6 +267,14 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - array[:high] = Membuat slice dari array dimulai index 0 sampai index sebelum high
 - array[:] = Membuat slice dari array dimulai index 0 sampai index akhir di array
 
+## Function Slice
+- len(slice) = Untuk mendapatkan panjang 
+- cap(slice) = Untuk mendapat kapasitas
+- append(slice, data) = Membuat slice baru dengan menambah data ke posisi terakhir slice, jika kapasitas sudah penuh, maka akan membuat array baru
+- make([]TypeData, length, capacity) = Membuat slice baru
+- copy(destination, source) = Menyalin slice dari source ke destination
+
+
 ### contoh di file:
 - [slice.go](slice.go)
 

@@ -38,4 +38,44 @@ func main(){
 	slice3 := names[:]
 
 	fmt.Println(slice3)
+
+	fmt.Println("")
+	fmt.Println("FUNCTION SLICE")
+	fmt.Println("")
+
+	days := [...]string{
+		"Senin",
+		"Selasa",
+		"Rabu",
+		"Kamis",
+		"Jumat",
+		"Sabtu",
+		"Minggu",
+	}
+
+	daysSlice1 := days[5:]
+	fmt.Println(daysSlice1)
+	// [Sabtu Minggu]
+
+	daysSlice1[0] = "Sabtu Cuti"
+	daysSlice1[1] = "Minggu Cuti"
+
+	fmt.Println(days)
+	//[Senin Selasa Rabu Kamis Jumat Sabtu Cuti Minggu Cuti]
+	
+	daysSlice2 := append(daysSlice1, "Ruka")
+	daysSlice2[0] = "Adoooh"
+	fmt.Println(daysSlice2)
+	// [Adoooh Minggu Cuti Ruka]
+
+	fmt.Println(days)
+	// [Senin Selasa Rabu Kamis Jumat Sabtu Cuti Minggu Cuti]
+
+
+
+	// make
+
+	
+	
+
 }
