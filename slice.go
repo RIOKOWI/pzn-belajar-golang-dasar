@@ -88,6 +88,22 @@ func main(){
 	fmt.Println(newSlice1)
 	fmt.Println(len(newSlice1))
 	fmt.Println(cap(newSlice1))
+
+	fromSlice := days
+	toSlice := make([]string, len(fromSlice), cap(fromSlice))
 	
+	copy(toSlice, fromSlice[:])
+
+	fmt.Print(fromSlice)
+	fmt.Print(toSlice)
+
+
+
+	// perbedaan array dan slice
+	iniArray := [...]int{1,2,3}
+	iniSlice := []int{1,2,3}
+
+	fmt.Println(iniArray)
+	fmt.Println(iniSlice)
 
 }

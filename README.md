@@ -274,6 +274,9 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - make([]TypeData, length, capacity) = Membuat slice baru
 - copy(destination, source) = Menyalin slice dari source ke destination
 
+## Hati-Hati Saat Membuat Array
+- Saat membuat Array, kita harus berhati-hati, jika salah, maka yang kita buat bukanlah Array, melainkan Slice
+
 
 ### contoh di file:
 - [slice.go](slice.go)
