@@ -13,4 +13,14 @@ func main(){
 	fmt.Println(names[1])
 	fmt.Println(names[2])
 
+	// cara buat array secara langsung
+
+	var values = [3]int{
+		1,
+		2,
+		// data ketiga defaultnya kosong
+	}
+
+	fmt.Println(values)
+
 }
