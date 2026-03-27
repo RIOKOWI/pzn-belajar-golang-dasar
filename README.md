@@ -268,6 +268,6 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - array[:] = Membuat slice dari array dimulai index 0 sampai index akhir di array
 
 ### contoh di file:
-- []()
+- [slice.go](slice.go)
 
 --- 
