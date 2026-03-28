@@ -302,3 +302,17 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - [map.go](map.go)
 
 --- 
+
+# If Expression
+- If adalah salah satu kata kunci yang digunakan untuk percabangan
+- Percabangan artinya kita bisa mengeksekusi kode program tertentu ketika suatu kondisi terpenuhi
+- Hampir di semua bahasa pemrograman mendukung if expression
+
+
+
+
+
+### contoh di file:
+- [if_expression.go](if_expression.go)
+
+--- 
