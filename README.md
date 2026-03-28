@@ -318,6 +318,12 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - Kasus seperti ini, kita bisa menggunakan Else If expression
 
 
+## If Short Statement
+- If mendukung short statement sebelum kondisi
+- Hal ini sangat cocok untuk membuat statement yang sederhana sebelum melakukan pengecekan terhadap kondisi
+
+
+
 ### contoh di file:
 - [if_expression.go](if_expression.go)
 

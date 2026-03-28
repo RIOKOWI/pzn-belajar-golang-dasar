@@ -13,4 +13,12 @@ func main(){
 	} else {
 		fmt.Print("salah brayyyyy")	
 	}
+	
+	fmt.Print("\n")	
+	
+	president := "jokowi"
+	
+	if length := len(president); length >= 6 {
+		fmt.Print("hidup ", president)	
+	}
 }
