@@ -313,6 +313,9 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - Kadang kita ingin melakukan eksekusi program tertentu jika kondisi if bernilai false
 - Hal ini bisa dilakukan menggunakan else expression
 
+## Else If Expression 
+- Kadang dalam If, kita butuh membuat beberapa kondisi
+- Kasus seperti ini, kita bisa menggunakan Else If expression
 
 
 ### contoh di file:
