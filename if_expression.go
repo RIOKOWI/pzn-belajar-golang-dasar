@@ -8,5 +8,7 @@ func main(){
 
 	if name == "rio" {
 		fmt.Print("halo ", name)
-	} 
+	} else {
+		fmt.Print("salah brayyyyy")	
+	}
 }

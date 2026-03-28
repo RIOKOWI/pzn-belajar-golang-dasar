@@ -308,7 +308,10 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - Percabangan artinya kita bisa mengeksekusi kode program tertentu ketika suatu kondisi terpenuhi
 - Hampir di semua bahasa pemrograman mendukung if expression
 
-
+## Else Expression
+- Blok if akan dieksekusi ketika kondisi if bernilai true
+- Kadang kita ingin melakukan eksekusi program tertentu jika kondisi if bernilai false
+- Hal ini bisa dilakukan menggunakan else expression
 
 
 
