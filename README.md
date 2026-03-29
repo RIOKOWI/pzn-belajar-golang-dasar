@@ -356,10 +356,13 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - Init statement, yaitu statement sebelum for di eksekusi
 - Post statement, yaitu statement yang akan selalu dieksekusi di akhir tiap perulangan
 
+## For Range
+- For bisa digunakan untuk melakukan iterasi terhadap semua data collection
+- Data collection contohnya Array, Slice dan Map
 
 
 ### contoh di file:
-- [switch.go](switch.go)
+- [for.go](for.go)
 
 --- 
 
