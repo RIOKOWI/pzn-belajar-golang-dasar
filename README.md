@@ -334,8 +334,15 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - Switch expression sangat sederhana dibandingkan if
 - Biasanya switch  expression digunakan untuk melakukan pengecekan ke kondisi dalam satu variable
 
+# Swicth Short Statement
+- Sama dengan If, Switch juga mendukung short statement sebelum variable yang akan di cek kondisinya
+
 
 ### contoh di file:
 - [switch.go](switch.go)
 
 --- 
+
+
+
+

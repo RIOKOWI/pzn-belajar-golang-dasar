@@ -13,4 +13,14 @@ func main() {
 	default : // else
 		fmt.Println("hayuuuuuukk")
 	}
+
+
+	jeneng := "sumantoooooo"
+
+	switch length := len(jeneng); length <= 7 {
+	case true :
+		fmt.Println("Hi", jeneng)
+	case false :
+		fmt.Println("lapo kon?")
+	}
 }
