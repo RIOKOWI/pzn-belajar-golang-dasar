@@ -347,6 +347,18 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 
 --- 
 
+# For Loops
+- Dalam bahasa pemrograman, biasanya ada fitur yang bernama perulangan
+- Salah satu fitur perulangan adalah for loops
+
+
+
+
+### contoh di file:
+- [switch.go](switch.go)
+
+--- 
+
 
 
 
