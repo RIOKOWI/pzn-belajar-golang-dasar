@@ -20,5 +20,7 @@ func main(){
 	
 	if length := len(president); length >= 6 {
 		fmt.Print("hidup ", president)	
+	} else {
+		fmt.Print("jomok")	
 	}
 }

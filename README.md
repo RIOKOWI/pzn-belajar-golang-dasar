@@ -328,3 +328,14 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - [if_expression.go](if_expression.go)
 
 --- 
+
+# Switch Expression
+- Selain if expression, untuk melakukan percabangan, kita juga bisa menggunakan Switch Expression
+- Switch expression sangat sederhana dibandingkan if
+- Biasanya switch  expression digunakan untuk melakukan pengecekan ke kondisi dalam satu variable
+
+
+### contoh di file:
+- [switch.go](switch.go)
+
+--- 
