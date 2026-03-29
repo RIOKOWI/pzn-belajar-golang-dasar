@@ -351,6 +351,10 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - Dalam bahasa pemrograman, biasanya ada fitur yang bernama perulangan
 - Salah satu fitur perulangan adalah for loops
 
+## For dengan Statement
+- Dalam for, kita bisa menambahkan statement, dimana terdapat 2 statement yang bisa tambahkan di for
+- Init statement, yaitu statement sebelum for di eksekusi
+- Post statement, yaitu statement yang akan selalu dieksekusi di akhir tiap perulangan
 
 
 
