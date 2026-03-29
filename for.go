@@ -34,4 +34,9 @@ func main(){
 	for index, name := range names {
 		fmt.Println("index", index, "=", name)
 	}
+
+	// kalo gak butuh index
+	for _, name := range names {
+		fmt.Println(name)
+	}
 }

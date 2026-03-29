@@ -366,6 +366,17 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 
 --- 
 
+# Break & Continue
+- Break & continue adalah kata kunci yang bisa digunakan dalam perulangan 
+- Break digunakan untuk menghentikan seluruh perulangan
+- Continue adalah digunakan untuk menghentikan perulangan yang berjalan, dan langsung melanjutkan ke perulangan selanjutnya
+
+
+### contoh di file:
+- [break.go](break.go)
+
+--- 
+
 
 
 
