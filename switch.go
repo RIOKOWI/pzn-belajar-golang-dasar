@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+
 func main() {
 	name := "rio"
 
@@ -15,12 +16,24 @@ func main() {
 	}
 
 
-	jeneng := "sumantoooooo"
+	jeneng := "sumanto"
 
 	switch length := len(jeneng); length <= 7 {
 	case true :
 		fmt.Println("Hi", jeneng)
 	case false :
 		fmt.Println("lapo kon?")
+	}
+
+
+	length := len(jeneng)
+
+	switch {
+	case length > 10:
+		fmt.Println("terlalu panjang")
+	case length > 5:
+		fmt.Println("oke")
+	default:
+		fmt.Println("terlalu pendek")
 	}
 }

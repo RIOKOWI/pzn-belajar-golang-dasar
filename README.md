@@ -334,8 +334,12 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - Switch expression sangat sederhana dibandingkan if
 - Biasanya switch  expression digunakan untuk melakukan pengecekan ke kondisi dalam satu variable
 
-# Swicth Short Statement
+## Swicth Short Statement
 - Sama dengan If, Switch juga mendukung short statement sebelum variable yang akan di cek kondisinya
+
+## Swicth tanpa kondisi
+- Kondisi di switch expression tidak wajib
+- Jika kita tidak menggunakan kondisi di switch expression, kita bisa menambahkan kondisi tersebut di setiap case nya
 
 
 ### contoh di file:
