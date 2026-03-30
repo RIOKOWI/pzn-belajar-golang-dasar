@@ -464,6 +464,19 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 --- 
 
 
+# Function as Parameter
+- Function tidak hanya bisa kita simpan di dalam variable sebagai value
+- Namun juga bisa kita gunakan sebagai parameter untuk function lain
+
+
+### contoh di file:
+- [function_as_parameter.go](function_as_parameter.go)
+
+--- 
+
+
+
+
 
 
 
