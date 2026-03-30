@@ -416,6 +416,17 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 
 --- 
 
+# Returning Multiple Values
+- Function tidak hanya dapat mengembalikan satu value, tapi juga bisa multiple value
+- Untuk memberitahu jika function mengembalikan multiple value, kita harus menulis semua tipe data return value nya di function
+
+
+
+### contoh di file:
+- [return_multiple_values.go](return_multiple_values.go)
+
+--- 
+
 
 
 
