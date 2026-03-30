@@ -17,7 +17,7 @@ func main(){
 	
 	
 	numbers := []int{10, 10, 10, 10, 10, 10, 10, 10,}
-	total := sumAll(numbers...) // kirim slice ke varargs
+	total := sumAll(numbers...) // konversi dari slice ke varargs
 	fmt.Println(total)
 
 }

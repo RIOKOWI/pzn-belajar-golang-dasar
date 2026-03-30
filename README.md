@@ -453,6 +453,16 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 
 --- 
 
+# Function as Value
+- Function adalah first class citizen
+- Function juga merupakan tipe data, dan bisa disimpan di dalam variable
+
+
+### contoh di file:
+- [function_as_value.go](function_as_value.go)
+
+--- 
+
 
 
 
