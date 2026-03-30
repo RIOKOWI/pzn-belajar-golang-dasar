@@ -436,6 +436,20 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 
 --- 
 
+# Variadic Function
+- Parameter yang berada di posisi terakhir, memiliki kemampuan dijadikan sebuah varargs
+- Varargs artinya datanya bisa menerima lebih dari satu input, atau anggap saja semacam Array.
+- Apa bedanya dengan parameter biasa dengan tipe data Array?
+      - Jika parameter tipe Array, kita wajib membuat array terlebih dahulu sebelum mengirimkan ke function
+      - JIka parameter menggunakan varargs, kita bisa langsung mengirim data nya, jika lebih dari satu, cukup gunakan tanda koma
+
+
+
+### contoh di file:
+- [variadic_function.go](variadic_function.go)
+
+--- 
+
 
 
 
