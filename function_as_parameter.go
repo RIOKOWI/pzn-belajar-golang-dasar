@@ -1,7 +1,9 @@
 package main
 import "fmt"
 
-func sayHelloWithFilter(name string, filter func(string) string){
+type Filter func(string) string // membuat alias agar gak kepanjagan di parameter
+
+func sayHelloWithFilter(name string, filter Filter){
 	filteredName := filter(name)
 	fmt.Println("Hello " + filteredName)
 }
