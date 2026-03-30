@@ -421,11 +421,21 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - Untuk memberitahu jika function mengembalikan multiple value, kita harus menulis semua tipe data return value nya di function
 
 
-
 ### contoh di file:
 - [return_multiple_values.go](return_multiple_values.go)
 
 --- 
+
+# Named Return Values
+- Biasanya saat kita memberi tahu bahwa sebuah function mengembalikan value, maka kita hanya mendeklarasikan tipe data return value di function
+- Namun kita juga bisa membuat variable secara langsung di tipe data return function nya
+
+
+### contoh di file:
+- [named_return_value.go](named_return_value.go)
+
+--- 
+
 
 
 
