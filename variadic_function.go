@@ -14,4 +14,10 @@ func sumAll(numbers ...int) int { // varargs = variabel argumen
 func main(){
 	bedugul := sumAll(10, 10, 10, 20, 30, 40)
 	fmt.Println(bedugul)
+	
+	
+	numbers := []int{10, 10, 10, 10, 10, 10, 10, 10,}
+	total := sumAll(numbers...) // kirim slice ke varargs
+	fmt.Println(total)
+
 }

@@ -443,6 +443,9 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
       - Jika parameter tipe Array, kita wajib membuat array terlebih dahulu sebelum mengirimkan ke function
       - JIka parameter menggunakan varargs, kita bisa langsung mengirim data nya, jika lebih dari satu, cukup gunakan tanda koma
 
+## Slice Parameter
+- Kadang ada kasus dimana kita menggunakan Variadic Function, namun memiliki variable berupa slice
+- Kita bisa menjadikan slice sebagai vararg parameter
 
 
 ### contoh di file:
