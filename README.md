@@ -517,9 +517,14 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - Defer function adalah function yang bisa kita jadwalkan untuk dieksekusi setelah sebuah function selesai di eksekusi
 - Defer function akan selalu dieksekusi walaupun terjadi error di function yang dieksekusi
 
+## Panic
+- Panic function adalah function yang bisa kita gunakan untuk menghentikan program
+- Panic function biasanya dipanggil ketika terjadi panic pada saat program kita berjalan
+- Saat panic function dipanggil, program akan terhenti, namun defer function tetap akan dieksekusi
 
 
 ### contoh di file:
 - [defer.go](defer.go)
+- [panic.go](panic.go)
 
 --- 
