@@ -522,6 +522,10 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - Panic function biasanya dipanggil ketika terjadi panic pada saat program kita berjalan
 - Saat panic function dipanggil, program akan terhenti, namun defer function tetap akan dieksekusi
 
+## Recover
+- Recover adalah function yang bisa kita gunakan untuk menangkap data panic
+- Dengan recover proses panic akan terhenti, sehingga program akan tetap berjalan
+
 
 ### contoh di file:
 - [defer.go](defer.go)
