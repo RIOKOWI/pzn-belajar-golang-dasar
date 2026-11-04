@@ -511,3 +511,15 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - [factorial_loop.go](factorial_loop.go)
 
 --- 
+
+# Defer, Panic dan Recover
+## Defer
+- Defer function adalah function yang bisa kita jadwalkan untuk dieksekusi setelah sebuah function selesai di eksekusi
+- Defer function akan selalu dieksekusi walaupun terjadi error di function yang dieksekusi
+
+
+
+### contoh di file:
+- [defer.go](defer.go)
+
+--- 
