@@ -550,6 +550,16 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - Data di struct disimpan dalam field  
 - Sederhananya struct adalah kumpulan dari field
 
-- [struct.go](struct.go)
+## Membuat Data Struct
+- Struct adalah template data atau prototype data
+- Struct tidak bisa langsung digunakan
+- Namun kita bisa membuat data/object dari struct yang telah kita buat
 
+## Struct Literals
+- Sebelumnya kita telah membuat data dari struct, namun sebenarnya ada banyak cara yang bisa kita gunakan untuk membuat data dari struct
+
+
+
+- [struct.go](struct.go)
+- [struct-literal.go](struct-literal.go)
 --- 
