@@ -675,10 +675,17 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 ## Dengan Operator *
 `http://www.plantuml.com/plantuml/uml/XP3DJeKm48NtynIJxbd8NeC_6p0c9Zx1G0TIBQsPjY8nlBjW0FLUaZkhzdmv-TefGYI9gRT0rlgXDv_6TG2jjve5rHFtNaQ5Nu3p-FgLcuYtMWk7SBMcozoREE8rlgIQNBUdp-8_Z6ju9XKDX7Sa57yxFhaeIwrqsZiEXdxOTE3AprqLlP54Ef8zF9OxlcoR05fZ6HMj_r980RVBVvR_PJd0Ti8ilMSt-sjXQv_c`
 
+### contoh di file:
+- [asterisk-operator.go](asterisk-operator.go)
+---
 
-
+# Operator New
+## Operator New
+- Sebelumnya untuk membuat pointer dengan menggunakan operator &
+- Go-Lang juga memiliki function new yang bisa digunakan untuk membuat pointer
+- Namun function new hanya mengembalikan pointer ke data kosong, artinya tidak ada data awal
 
 
 ### contoh di file:
-- [asterisk-operator.go](asterisk-operator.go)
+- [operator-new.go](operator-new.go)
 ---
