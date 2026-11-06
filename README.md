@@ -656,8 +656,29 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 ## Operator &
 - Untuk membuat sebuah variable dengan nilai pointer ke variable yang lain, kita bisa menggunakan operator & diikuti dengan nama variable nya
 
+### contoh di file:
+- [pointer.go](pointer.go)
+---
+
+# Asterisk Operator
+## Operator *
+- Saat kita mengubah variable pointer, maka yang berubah hanya variable tersebut.
+- Semua variable yang mengacu ke data yang sama tidak akan berubah
+- Jika kita ingin mengubah seluruh variable yang mengacu ke data tersebut, kita bisa menggunakan operator *
+
+## Variable Pointer Mengacu Ke Data yang Sama
+- `http://www.plantuml.com/plantuml/uml/NO_B2i8m44NtynL3zbsqUwNgIa4G_89fCqeaJIGFQv7-kwaqFhohv1mkkQbz81TYfu6qjdsdxigS0KvMItOezjnPDmXy0AROvi9jm9MKZhql9pfdeyA02pp6Xb8zquEpDsLQJcP7FU6Q78LFnqOJt5JR6caDUqKlDyAO1YZDA6X-II1vp9TVLtsx2Y2Vi8ZNOldUcddvpw5c8wV_Fm40`
+
+## Tanpa Operator *
+`http://www.plantuml.com/plantuml/uml/ZP31IiKm44NtynL3zc_nkbTQTTEA8FW5qsQKQ9h89B4MwR-RIeCMktYpIkxXSfYfGoI9QRH0rlffD9_6lG0yUwjPK3tmw6LM-0MOn_UlF4Hij1OEuRocszoQEECLFgMUShsaZ-8_Z1iuauucmXiIYhyTdroKjTOwxHq7GpziEN1L_rqTlP54EfBTtRS5Ns1Ryhh6CYhQzb980Sjdpwg_h08eBpobzzCrD`
+
+## Dengan Operator *
+`http://www.plantuml.com/plantuml/uml/XP3DJeKm48NtynIJxbd8NeC_6p0c9Zx1G0TIBQsPjY8nlBjW0FLUaZkhzdmv-TefGYI9gRT0rlgXDv_6TG2jjve5rHFtNaQ5Nu3p-FgLcuYtMWk7SBMcozoREE8rlgIQNBUdp-8_Z6ju9XKDX7Sa57yxFhaeIwrqsZiEXdxOTE3AprqLlP54Ef8zF9OxlcoR05fZ6HMj_r980RVBVvR_PJd0Ti8ilMSt-sjXQv_c`
+
+
+
 
 
 ### contoh di file:
-- [pointer.go](pointer.go)
+- [asterisk-operator.go](asterisk-operator.go)
 ---
