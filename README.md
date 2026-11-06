@@ -637,3 +637,16 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 ### contoh di file:
 - [type-assertions.go](type-assertions.go)
 ---
+
+# Pointer
+## Pass by Value
+- Secara default di Go-Lang semua variable itu di passing by value, bukan by reference
+- Artinya, jika kita mengirim sebuah variable ke dalam function, method atau variable lain, sebenarnya yang dikirim adalah duplikasi value nya
+
+## Penjelasan Detail Pass by Value
+- `http://www.plantuml.com/plantuml/uml/jP71IWCn48RlynH3xZrqZuBIrPE28FW4qysqZcGpPP9OY_ZkPcMZk-3L_vJy7ny_8RkKoN8P0r08UXxbNU8HuA31iw5xv57jul03i4RthpnaxBqtJcaxjNFk95_m6f_BdghUsYVJDua3L_90Py9RCig_ZfQORTBkezV8IUYRVS8VOzs_ZTMvWmH6H_Ep75B2TbcpRiawW7R2JJbjRh1leDdhVWlzJszo`
+
+
+### contoh di file:
+- [pointer.go](pointer.go)
+---

@@ -25,6 +25,6 @@ func main(){
 	case int: // kalo int
 		fmt.Println("Int", value) // tampilkan int dan value/tipe data dari interface
 	default: // kalo any/kosong
-		fmt.Println("Unknown", value) // tampilkan unknown
+		fmt.Println("Unknown", value) // tampilkan unknown == tidak panic
 	}
 }
