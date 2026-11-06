@@ -721,5 +721,6 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 
 
 ### contoh di file:
-- [helper.go](helper.go)
+- [helper/helper.go](helper/helper.go)
+- [import.go](helper.go)
 ---
