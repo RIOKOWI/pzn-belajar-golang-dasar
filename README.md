@@ -575,3 +575,16 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 ### contoh di file:
 - [struct.go](struct.go)
 ---
+
+
+# Interface
+## Interface
+- Interface adalah tipe data Abstract, dia tidak memiliki implementasi langsung
+- Sebuah interface berisikan definisi-definisi method
+- Biasanya interface digunakan sebagai kontrak 
+
+
+
+### contoh di file:
+- [struct.go](struct.go)
+---
