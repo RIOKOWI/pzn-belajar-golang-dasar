@@ -646,6 +646,17 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 ## Penjelasan Detail Pass by Value
 - `http://www.plantuml.com/plantuml/uml/jP71IWCn48RlynH3xZrqZuBIrPE28FW4qysqZcGpPP9OY_ZkPcMZk-3L_vJy7ny_8RkKoN8P0r08UXxbNU8HuA31iw5xv57jul03i4RthpnaxBqtJcaxjNFk95_m6f_BdghUsYVJDua3L_90Py9RCig_ZfQORTBkezV8IUYRVS8VOzs_ZTMvWmH6H_Ep75B2TbcpRiawW7R2JJbjRh1leDdhVWlzJszo`
 
+## Pointer
+- Pointer adalah kemampuan membuat reference ke lokasi data di memory yang sama, tanpa menduplikasi data yang sudah ada
+- Sederhananya, dengan kemampuan pointer, kita bisa membuat pass by reference
+
+## Pass by Reference dengan Pointer
+- `http://www.plantuml.com/plantuml/uml/NO_B2i8m44NtynL3zbsqUwNgIa4G_89fCqeaJIGFQv7-kwaqFhohv1mkkQbz81TYfu6qjdsdxigS0KvMItOezjnPDmXy0AROvi9jm9MKZhql9pfdeyA02pp6Xb8zquEpDsLQJcP7FU6Q78LFnqOJt5JR6caDUqKlDyAO1YZDA6X-II1vp9TVLtsx2Y2Vi8ZNOldUcddvpw5c8wV_Fm40`
+
+## Operator &
+- Untuk membuat sebuah variable dengan nilai pointer ke variable yang lain, kita bisa menggunakan operator & diikuti dengan nama variable nya
+
+
 
 ### contoh di file:
 - [pointer.go](pointer.go)
