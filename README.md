@@ -623,3 +623,14 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 ### contoh di file:
 - [nil.go](nil.go)
 ---
+
+# Type Assertions
+## Type Assertions
+- Type Assertions merupakan kemampuan merubah tipe data menjadi tipe data yang diinginkan
+- Fitur ini sering sekali digunakan ketika kita bertemu dengan data interface kosong
+
+
+
+### contoh di file:
+- [nil.go](nil.go)
+---
