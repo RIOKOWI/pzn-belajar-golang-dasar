@@ -539,6 +539,7 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - Saat membuat kode, kita perlu membuat kode semudah mungkin untuk dibaca
 - Namun kadang juga kita butuh menambahkan komentar di kode kita
 
+### contoh di file:
 - [comment.go](comment.go)
 
 --- 
@@ -559,7 +560,18 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - Sebelumnya kita telah membuat data dari struct, namun sebenarnya ada banyak cara yang bisa kita gunakan untuk membuat data dari struct
 
 
-
+### contoh di file:
 - [struct.go](struct.go)
 - [struct-literal.go](struct-literal.go)
 --- 
+
+# Struct Method
+## Struct Method
+- Struct adalah tipe data seperti tipe data lainnya, dia bisa digunakan sebagai parameter untuk function
+- Namun jika kita ingin menambahkan method ke dalam structs, sehingga seakan-akan sebuah struct memiliki function
+- Method adalah function
+
+
+### contoh di file:
+- [struct.go](struct.go)
+---
