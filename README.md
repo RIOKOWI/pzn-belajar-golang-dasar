@@ -724,3 +724,16 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - [helper/helper.go](helper/helper.go)
 - [import.go](helper.go)
 ---
+
+
+# Access Modifier
+## Access Modifier
+- Di bahasa pemrograman lain, biasanya ada kata kunci yang bisa digunakan untuk menentukan access modifier terhadap suatu function atau variable
+- Di Go-Lang, untuk menentukan access modifier, cukup dengan nama function atau variable
+- Jika nama nya diawali dengan hurup besar, maka artinya bisa diakses dari package lain, jika dimulai dengan hurup kecil, artinya tidak bisa diakses dari package lain
+
+
+### contoh di file:
+- [helper/helper.go](helper/helper.go)
+- [access-modifier.go](access-modifier.go)
+---
