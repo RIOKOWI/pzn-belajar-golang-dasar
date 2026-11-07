@@ -772,3 +772,11 @@ type error interface {
 ### contoh di file:
 - [error.go](error.go)
 ---
+
+# Membuat Custom Error
+- Karena error adalah sebuah interface, jadi jika kita ingin membuat error sendiri, kita bisa membuat struct yang mengikuti kontrak dari interface error
+
+
+### contoh di file:
+- [error-custom.go](error-custom.go)
+---

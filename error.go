@@ -19,6 +19,6 @@ func main(){
 	if err == nil { // jika error nya nihil atau nil
 		fmt.Println("Hasil", result) // tampilkan pesan dan data hasilnya
 	} else { // jika error nya ada
-		fmt.Println("Error:", err.Error()); // tampilkan pesan error dari method error yang dari interface error
+		fmt.Println("Error:", err.Error()); // tampilkan pesan error dari method Error() yang dari interface error
 	}
 }
