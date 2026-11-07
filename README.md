@@ -749,10 +749,26 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - Secara default, Go-Lang akan komplen ketika ada package yang di import namun tidak digunakan
 - Untuk menangani hal tersebut, kita bisa menggunakan blank identifier (_) sebelum nama package ketika melakukan import
 
-
-
 ### contoh di file:
 - [database/database.go](database/database.go)
 - [init.go](init.go)
 - [internal/internal.go](internal/internal.go)
+---
+
+# Error
+## Error Interface
+- Go-Lang memiliki interface yang digunakan sebagai kontrak untuk membuat error, nama interface nya adalah error
+```go
+type error interface {
+  Error() string // kalo mau bikin error
+}
+```
+
+## Membuat Error
+- Untuk membuat error, kita tidak perlu manual.
+- Go-Lang sudah menyediakan library untuk membuat helper secara mudah, yang terdapat di package errors (Package akan kita bahas secara detail di materi tersendiri)
+
+
+### contoh di file:
+- [error.go](error.go)
 ---
