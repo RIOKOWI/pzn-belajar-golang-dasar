@@ -737,3 +737,14 @@ PS C:\Users\owi\pzn-belajar-golang-dasar> go build
 - [helper/helper.go](helper/helper.go)
 - [access-modifier.go](access-modifier.go)
 ---
+
+# Package Initialization
+## Package Initialization
+- Saat kita membuat package, kita bisa membuat sebuah function yang akan diakses ketika package kita diakses
+- Ini sangat cocok ketika contohnya, jika package kita berisi function-function untuk berkomunikasi dengan database, kita membuat function inisialisasi untuk membuka koneksi ke database
+- Untuk membuat function yang diakses secara otomatis ketika package diakses, kita cukup membuat function dengan nama init
+
+### contoh di file:
+- [database/database.go](database/database.go)
+- [access-modifier.go](access-modifier.go)
+---
